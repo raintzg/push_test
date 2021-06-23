@@ -1,5 +1,5 @@
 <?php
-$pet = array('animal' => '犬', 'name' => 'ポチ', 'owner' => '太郎');
+$pet = array('animal' => '犬', 'name' => 'ポチ', 'owner' => '花子');
 ?>
 <!DOCTYPE html>
 <html lang="ja">
