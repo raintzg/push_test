@@ -8,10 +8,10 @@ $animals = array('Rat', 'Ox', 'Tiger', 'Rabbit', 'Dragon', 'Snake', 'Horse', 'Sh
 <title>課題20</title>
 </head>
 <body>
-<h1>十二支</h1>
+<h1>Chinese Zodiac</h1>
 <?php
 foreach ($animals as $value) {
-	echo $value;
+	echo $value . '<br>';
 }
 ?>
 </body>
