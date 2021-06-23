@@ -1,8 +1,5 @@
 <?php
-$animals = array('Rat', 'Ox', 'Tiger', 'Rabbit', 'Dragon', 'Snake', 'Horse', 'Sheep', 'Monkey', 'Rooster', 'Dog', 'Boar', 'Cat');
-foreach ($animals as $value) {
-	echo $value;
-}
+$animals = array('Rat', 'Ox', 'Tiger', 'Rabbit', 'Dragon', 'Snake', 'Horse', 'Sheep', 'Monkey', 'Rooster', 'Dog', 'Boar');
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -12,5 +9,10 @@ foreach ($animals as $value) {
 </head>
 <body>
 <h1>十二支</h1>
+<?php
+foreach ($animals as $value) {
+	echo $value;
+}
+?>
 </body>
 </html>
