@@ -8,6 +8,7 @@ $animals = array('Rat', 'Ox', 'Tiger', 'Rabbit', 'Dragon');
 <title>課題20</title>
 </head>
 <body>
+<h1>animal</h1>
 <?php echo $animals[2]; ?>
 </body>
 </html>
